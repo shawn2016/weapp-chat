@@ -15,5 +15,9 @@ node server.js
 
 ### 相关链接
 
-[https://github.com/getweapp/weapp-chat.git]: https://github.com/getweapp/weapp-chat.git
+https://github.com/getweapp/weapp-chat.git
+
+### 截图
+
+[https://github.com/shawn2016/weapp-chat/blob/master/images/cut/1.png]
 
