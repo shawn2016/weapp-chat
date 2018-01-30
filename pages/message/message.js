@@ -1,8 +1,7 @@
 import socket from '../../utils/socket'
 import { formatTime } from '../../utils/util'
 const app = getApp()
-
-app.getUserInfo()
+console.log(app.getUserInfo())
 
 Page({
   data:{
@@ -41,6 +40,7 @@ Page({
     })
   },
   sendMessage(e) {
+    console.log(e)
     this.setData({
       msg: e.detail.value,
       more: (e.detail.value)?'ion-ios-send':'ion-ios-plus-outline'

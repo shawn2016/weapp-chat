@@ -1,6 +1,7 @@
 const peopleId = getApp().globalData.peopleId
 console.log('peopleId:', peopleId)
 
+
 class Socket {
   constructor(host) {
     this.host = host
@@ -66,6 +67,6 @@ class Socket {
   }
 }
 
-const socket = new Socket('ws://localhost:8181')
+const socket = new Socket('ws://172.17.44.82:8181')
 
 export default socket

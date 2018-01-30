@@ -8,7 +8,7 @@ App({
   },
   getUserInfo: function (cb) {
     var that = this
-    if (this.globalData.userInfo) {
+    if (JSON.stringify(this.globalData.userInfo) !== "{}") {
       typeof cb == "function" && cb(this.globalData.userInfo)
     } else {
       //调用登录接口
@@ -17,6 +17,7 @@ App({
           wx.getUserInfo({
             success: function (res) {
               that.globalData.userInfo = res.userInfo
+              console.log(res)
               typeof cb == "function" && cb(that.globalData.userInfo)
             }
           })

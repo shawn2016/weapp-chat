@@ -52,7 +52,7 @@
 }
 
 .ion-ios-mic{
-    background-image:url(../../images/voice.png);
+    background-image:url(http://www.moepan.net/uploads/2018012918444473458928.png);
     background-size: 32px 32px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -60,7 +60,7 @@
 }
 
 .ion-happy-outline{
-    background-image:url('../../images/emotion-o.png');
+    background-image:url(http://www.moepan.net/uploads/2018012918514267644518.png);
     background-size: 32px 32px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -68,7 +68,7 @@
 }
 
 .ion-ios-plus-outline{
-    background-image:url('../../images/plus.png');
+    background-image:url(http://www.moepan.net/uploads/2018012918500883697591.png);
     background-size: 32px 32px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -76,7 +76,7 @@
 }
 
 .ion-ios-send{
-    background-image:url('../../images/send.png');
+    background-image:url(http://www.moepan.net/uploads/2018012918500883697591.png);
     background-size: 32px 32px;
     background-repeat: no-repeat;
     background-position: center center;
